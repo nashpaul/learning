@@ -1,0 +1,21 @@
+{
+   "HAproxy": {
+      "username": "username",
+      "password": "password",
+      "URL": "http://%IP%/haproxy/haproxy_stats.php?haproxystats=1;csv;norefresh",
+      "pxname_filter": [
+         "HA_NAME"
+      ]
+   },
+   "Database": {
+      "username": "username",
+      "password": "password",
+      "ip": "ip",
+      "port": "3306",
+      "base": "base",
+      "echo_debug": 1
+   },
+   "PullTimeout": 30,
+   "LogDebugLevel": "INFO"
+
+}
