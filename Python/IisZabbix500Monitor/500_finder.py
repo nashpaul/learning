@@ -1,7 +1,7 @@
 foldin = 'c:\\inetpub\\logs\\LogFiles' #src_folder
 file_name_format = "u_ex%y%m%d"  # patternt log_file
 ignore_cs_uri_stem = ("File/fid", "UploadImportFiles", "UploadFiles", "Reception")  # list of ignore errors
-ignore_usernames = ("mh.CereT")
+ignore_usernames = ("")
 ignore_sc_statuses = ("500|0|64","500|19|64")
 ignore_time = '04:30-05:10'  # ignore time_period  HH:mm-HH-mm
 timezone = 'US/Eastern' # local timezone
